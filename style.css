@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+}
+body{
+    background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logo {
+    height: 71px;
+    width: 69px;
+    display: block;
+    margin: auto;
+    margin-top: 11px;
+}
+h2#maintitle {
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 1px 1px #926c6c;
+}
+#mainbody {
+    width: 60%;
+    margin: auto;
+    border: 2px solid #131212;
+    height: 33rem;
+    box-shadow: 3px 3px 7px black;
+    overflow-y: auto;
+}
+.message {
+    width:40%;
+    border: 2px solid beige;
+    height: fit-content;
+    margin-top: 13px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    border-radius: 1rem;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #665656;
+}
+.left {
+    float: right;
+    clear: both;
+    text-align: center;
+}
+.right {
+    float: left;
+    clear: both;
+}
+.sendbox {
+    /* display: flex;
+    justify-content: flex-start; */
+    margin-top: 11px;
+    text-align: center;
+}
+form#message-box {
+    width: 100%;
+}
+input#messageinput {
+    display:inline-block;
+    width: 54%;
+    margin:auto;
+    height: 2.1rem;
+    border: none;
+    border-radius: 10px;
+    padding-left:22px;
+    font-size: 1.3rem;
+    outline: none;
+}
+button#btn {
+    display:inline-block;
+    margin-left: 4px;
+    width: 5.5rem;
+    border: none;
+    border-radius: 11px;
+    font-size: 1.5rem;
+    text-align: center;
+    background: #ca1d1d;
+    color: white;
+    padding: 2px;
+    box-shadow: 3px 3px 5px #0c0808;
+    transition-property: all;
+    transition-duration: .4s;
+}
+#btn:hover{
+    width:5.6rem;
+    padding:4px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+
+  }
